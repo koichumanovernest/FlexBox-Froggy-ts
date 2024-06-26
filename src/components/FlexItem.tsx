@@ -124,13 +124,13 @@ const FlexItem: React.FC<Props> = ({
 						<StyledParagraftst>.yellow{"{"}</StyledParagraftst>
 						<StyledInput11 value={inputValue} onChange={handleChange} />
 						<StyledParagrafts1>{"}"}</StyledParagrafts1>
-						<StyledButtonThee
+						<StyledButtonThees
 							disabled={inputValue !== solution}
 							onClick={playAudio}
 							color="error"
 							variant="contained">
 							Слеующий
-						</StyledButtonThee>
+						</StyledButtonThees>
 					</StyledMapPond>
 				</StyledMapContainer>
 			) : (
@@ -234,7 +234,7 @@ const StyledInput11 = styled("input")`
 
 const StyledPondText = styled("p")`
 	position: relative;
-	bottom: 35px;
+	bottom: 30px;
 	left: 20px;
 `;
 
@@ -362,14 +362,21 @@ const StyledTitle = styled("p")`
 
 const StyledPondButton = styled(Button)`
 	margin-left: 37.5rem;
-	margin-top: 1rem;
+	margin-top: 3rem;
 	width: 120px;
 	height: 33px;
 `;
 
 const StyledButtonThee = styled(Button)`
 	margin-left: 37.5rem;
-	margin-top: -8rem;
+	margin-top: -3rem;
+	width: 120px;
+	height: 33px;
+`;
+
+const StyledButtonThees = styled(Button)`
+	margin-left: 37.5rem;
+	margin-top: -6rem;
 	width: 120px;
 	height: 33px;
 `;

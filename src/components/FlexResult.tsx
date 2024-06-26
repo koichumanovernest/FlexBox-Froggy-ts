@@ -222,7 +222,7 @@ export default FlexResult;
 const FrogsContainer = styled(Box)({
 	display: "flex",
 	width: "42rem",
-	height: "100%",
+	height: "45.500rem",
 	backgroundColor: "#1f5768",
 	marginTop: "110px",
 	position: "absolute",
@@ -365,6 +365,7 @@ const StyledIconsFrog14 = styled(Box)`
 `;
 
 //!  StyledSheetContainers !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 const StyleSheetContainer1 = styled(Box)`
 	width: 580px;
 	display: flex;
